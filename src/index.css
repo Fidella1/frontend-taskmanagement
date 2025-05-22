@@ -1,0 +1,208 @@
+/* GENERAL APP LAYOUT */
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* HEADINGS */
+.heading {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.subheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #0056b3;
+  margin-bottom: 0.5rem;
+}
+
+/* FORM STYLES */
+.form {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.form-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+.input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 180px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* GENERAL BUTTON */
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* BOARD BUTTONS */
+.button-edit-board {
+  background-color: #002fff; /* amber */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-edit-board:hover {
+  background-color: #fb8c00;
+}
+
+.button-delete-board {
+  background-color: #e53935; /* red */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-delete-board:hover {
+  background-color: #c62828;
+}
+
+/* TASK BUTTONS */
+.button-edit-task {
+  background-color: #2196f3; /* blue */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-edit-task:hover {
+  background-color: #1976d2;
+}
+
+.button-delete-task {
+  background-color: #607d8b; /* blue-gray */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-delete-task:hover {
+  background-color: #455a64;
+}
+
+/* LIST WRAPPERS */
+.board-list,
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.task-list {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+/* BOARD ITEM */
+.board-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+.board-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+}
+
+/* TASK ITEM (DARKER LOOK) */
+.task-item {
+  background: #2c3e50; /* dark background */
+  color: white;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  transition: box-shadow 0.2s ease;
+}
+.task-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* TASK TEXT STYLING */
+.task-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+.task-status {
+  font-style: italic;
+  color: #1abc9c;
+  margin-top: 0.25rem;
+}
+.task-desc {
+  color: #ecf0f1;
+  margin-top: 0.25rem;
+}
+
+
+.button-delete-boardd {
+  background-color: #297c03; /* dark red */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-delete-boardd:hover {
+  background-color: #3dad43;
+}
+
+.button-edit-boardd {
+  background-color: #3a180a; /* dark red */
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-edit-boardd:hover {
+  background-color: #e0954e;
+}
